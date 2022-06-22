@@ -1,10 +1,9 @@
 # News-Recommendation-System
+We propose a news recommendation system based on articles similarity and person co-occurencies found in the same articles. 
 
 Contributors:
 - Artem Aroslankin
 - Polina Smolnikova
-
-### Idea
 
 ### Dataset
 Ria News dataset contains last news from several categories:
@@ -57,10 +56,9 @@ Our own proposed algorithm is the following:
 Examples:
 1. Local politics news
 Article currently opened - 'Депутат госдумы обязан присутствовать во время пленарных заседаний палаты...'
-Top from suggestion list - 'Президент России Владимир Путин представил нового главу мчс александра куренкова'  
+Top from suggestion list - 'Президент России Владимир Путин представил нового главу мчс Александра Куренкова...'  
 2. Space news
-Article currently opened -  "Александр скворцов на счету которого три космических полета уходит из российского отряда космонавтов..."
-
+Article currently opened -  'Александр скворцов на счету которого три космических полета уходит из российского отряда космонавтов...'
 Top from suggestion list - 'Капсула космического корабля crew dragon с экипажем из четырех человек приводнилась в атлантическом океане...'
 
 
