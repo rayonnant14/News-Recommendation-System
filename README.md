@@ -1,6 +1,6 @@
 # News-Recommendation-System
 We propose a news recommendation system based on articles similarity and person co-occurencies found in the same articles. 
-The potential buisness profit is in article by article reading which leads increasing of user active time at service, direct benefit, for example, advertising time increases.
+The potential business profit is in article by article reading which leads increasing of user active time at service, direct benefit, for example, advertising time increases.
 
 
 Contributors:
