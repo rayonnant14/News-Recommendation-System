@@ -1,6 +1,6 @@
 # News-Recommendation-System
-We propose a news recommendation system based on articles similarity and person co-occurencies found in the same articles. 
-The potential business profit is in article by article reading which leads increasing of user active time at service, direct benefit, for example, advertising time increases.
+We propose a news recommendation system (algorithm prototype) based on articles similarity and person co-occurencies found in the same articles. 
+The potential business profit is in article by article reading. It helps to increase user active time at service. Direct benefit - more time - more advertisment for example.
 
 We store dataset in [data](https://github.com/rayonnant14/News-Recommendation-System/tree/main/data) folder. Dataset creating, entity linking system and graph building, recommendation algorithm implementation can be found in [ria_dataset.ipynb](https://github.com/rayonnant14/News-Recommendation-System/blob/main/research/ria_dataset.ipynb) and [social_network_project.ipynb](https://github.com/rayonnant14/News-Recommendation-System/blob/main/research/social_network_project.ipynb) respectively. 
 
