@@ -1,5 +1,7 @@
 # News-Recommendation-System
 We propose a news recommendation system based on articles similarity and person co-occurencies found in the same articles. 
+The potential buisness profit is in article by article reading which leads increasing of user active time at service, direct benefit, for example, advertising time increases.
+
 
 Contributors:
 - Artem Aroslankin
@@ -61,4 +63,20 @@ Top from suggestion list - 'Президент России Владимир П�
 Article currently opened -  'Александр скворцов на счету которого три космических полета уходит из российского отряда космонавтов...'
 Top from suggestion list - 'Капсула космического корабля crew dragon с экипажем из четырех человек приводнилась в атлантическом океане...'
 
+### Quality assessment 
+There are no open-source real user's eventstreams related to news products (No real answers for algorithm to check).
+The way of quality assurance is expert assessment (human eye).
+Algorithm of assessment:
+1. Find the most interesting article to start with.
+2. Take 3 articles from top of list of recommendations.
+3. Use MAP@3 to evualute.
 
+The result is ambigous, one person collected high values, while another one has extremely low results.
+
+Another algorithm of assessment is about article by article scrolling.
+1. Take 10 interested articles.
+2. If interesting in top3. use next.
+3. Repeat until no interesting in top3.
+4. Count how many articles were scrolled.
+
+Here, we have in average about 8 articles length of session. It is a great baseline to start with.
